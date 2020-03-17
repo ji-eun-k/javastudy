@@ -18,6 +18,9 @@ public class Casting {
 
 		// 손실이 일어나기 때문에 내가 1이라고 해주기 전까지 자동으로 casting 해주지 않음.
 
+		String str1 = Integer.toString(1);
+		System.out.println(str1.getClass());
+
 	}
 
 }
