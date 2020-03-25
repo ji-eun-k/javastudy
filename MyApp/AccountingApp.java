@@ -11,8 +11,8 @@ public class AccountingApp {
 		double expense = valueOfSupply * expenseRate;
 		double income = valueOfSupply - expense;
 		double dividend1 = income * 0.5;
-		double dividend2 = income * 0.3;
-		double dividend3 = income * 0.2;
+		double dividend2 = income * 0.4;
+		double dividend3 = income * 0.1;
 
 		System.out.println("Value of supply : " + valueOfSupply);
 
